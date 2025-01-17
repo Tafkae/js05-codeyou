@@ -1,91 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Introduction to JS: Arrays | Assignment</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="/" class="link">Concept</a></li>
-                <li class="nav-item"><a href="./assignment.html" class="link">Assignment</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/" class="link">Concept</a></li>
+          <li class="nav-item">
+            <a href="./assignment.html" class="link">Assignment</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main">
-        <section class="concept">
-            <h2 class="title">Assignment</h2>
-            <p class="paragraph">Make the following changes in <code class="inline-code">assignment.js</code>. These values will be reflected in the "Answer Ouput" section.</p>
-            <p class="paragraph">
-                <ul class="list">
-                    <li class="list-item">Create a mutable variable named <code class="inline-code">shiftValue</code> and do not assign it a value.</li>
-                    <li class="list-item">Create a mutable variable named <code class="inline-code">popValue</code> and do not assign it a value.</li>
-                    <li class="list-item">Write the code for each step.</li>
-                </ul>
-            </p>
+      <section class="concept">
+        <h2 class="title">Assignment</h2>
+        <p class="paragraph">
+          Make the following changes in
+          <code class="inline-code">assignment.js</code>. These values will be
+          reflected in the "Answer Ouput" section.
+        </p>
+        <p class="paragraph"></p>
+        <ul class="list">
+          <li class="list-item">
+            Create a mutable variable named
+            <code class="inline-code">shiftValue</code> and do not assign it a
+            value.
+          </li>
+          <li class="list-item">
+            Create a mutable variable named
+            <code class="inline-code">popValue</code> and do not assign it a
+            value.
+          </li>
+          <li class="list-item">Write the code for each step.</li>
+        </ul>
 
+        <h3 class="sub-title">Answer Ouput</h3>
+        <ol class="list ordered">
+          <li class="list-item">
+            Output the <code class="inline-code">todo</code> array.
+          </li>
+          <ul class="list">
+            <li class="list-item">
+              Expected:
+              <code class="inline-code"
+                >Wash the dishes,Clean the gutters,Mow the yard,Do some
+                coding,Rake the leaves</code
+              >
+            </li>
+            <li class="list-item">
+              Actual: <code id="answer-one" class="inline-code"></code>
+            </li>
+          </ul>
+          <li class="list-item">
+            Output the third value in the
+            <code class="inline-code">todo</code> array.
+          </li>
 
-            <h3 class="sub-title">Answer Ouput</h3>
-            <ol class="list ordered">
-                <li class="list-item">Output the <code class="inline-code">todo</code> array.</li>
-                <ul class="list">
-                    <li class="list-item">Expected: <code class="inline-code">Wash the dishes,Clean the gutters,Mow the yard,Do some coding,Rake the leaves</code></li>
-                    <li class="list-item">Actual: <code id="answer-one" class="inline-code"></code></li>
-                </ul>
-                <li class="list-item">Output the third value in the <code class="inline-code">todo</code> array.</li>
-                
-                <ul class="list">
-                    <li class="list-item">Expected: <code class="inline-code">Mow the yard</code></li>
-                    <li class="list-item">Actual: <code id="answer-two" class="inline-code"></code></li>
-                </ul>
+          <ul class="list">
+            <li class="list-item">
+              Expected: <code class="inline-code">Mow the yard</code>
+            </li>
+            <li class="list-item">
+              Actual: <code id="answer-two" class="inline-code"></code>
+            </li>
+          </ul>
 
-                <li class="list-item">
-                    Remove the last value of the array and store it in <code class="inline-code">popValue</code>.
-                </li>
+          <li class="list-item">
+            Remove the last value of the array and store it in
+            <code class="inline-code">popValue</code>.
+          </li>
 
+          <li class="list-item">
+            Output the <code class="inline-code">todo</code> array.
+          </li>
+          <ul class="list">
+            <li class="list-item">
+              Expected:
+              <code class="inline-code"
+                >Wash the dishes,Clean the gutters,Mow the yard,Do some
+                coding</code
+              >
+            </li>
+            <li class="list-item">
+              Actual: <code id="answer-four" class="inline-code"></code>
+            </li>
+          </ul>
 
-                <li class="list-item">Output the <code class="inline-code">todo</code> array.</li>
-                <ul class="list">
-                    <li class="list-item">Expected: <code class="inline-code">Wash the dishes,Clean the gutters,Mow the yard,Do some coding</code></li>
-                    <li class="list-item">Actual: <code id="answer-four" class="inline-code"></code></li>
-                </ul>
+          <li class="list-item">
+            Reverse the <code class="inline-code">todo</code> array.
+          </li>
 
-                <li class="list-item">Reverse the <code class="inline-code">todo</code> array.</li>
+          <li class="list-item">
+            Output the <code class="inline-code">todo</code> array.
+          </li>
+          <ul class="list">
+            <li class="list-item">
+              Expected:
+              <code class="inline-code"
+                >Do some coding,Mow the yard,Clean the gutters,Wash the
+                dishes</code
+              >.
+            </li>
+            <li class="list-item">
+              Actual: <code id="answer-five" class="inline-code"></code>.
+            </li>
+          </ul>
 
-                <li class="list-item">Output the <code class="inline-code">todo</code> array.</li>
-                <ul class="list">
-                    <li class="list-item">Expected: <code class="inline-code">Do some coding,Mow the yard,Clean the gutters,Wash the dishes</code>.</li>
-                    <li class="list-item">Actual: <code id="answer-five" class="inline-code"></code>.</li>
-                </ul>
+          <li class="list-item">
+            Remove the first value of the array and store it in
+            <code class="inline-code">shiftValue</code>.
+          </li>
 
-                <li class="list-item">
-                    Remove the first value of the array and store it in <code class="inline-code">shiftValue</code>.
-                </li>
+          <li class="list-item">
+            Add <code class="inline-code">shiftValue</code> and
+            <code class="inline-code">popValue</code> to the end of the
+            <code class="inline-code">todo</code> array in that order.
+          </li>
 
-                <li class="list-item">
-                    Add <code class="inline-code">shiftValue</code> and <code class="inline-code">popValue</code> to the end of the <code class="inline-code">todo</code> array in that order.
-                </li>
+          <li class="list-item">
+            Output the <code class="inline-code">todo</code> array.
+          </li>
+          <ul class="list">
+            <li class="list-item">
+              Expected:
+              <code class="inline-code"
+                >Mow the yard,Clean the gutters,Wash the dishes,Do some coding,
+                Rake the leaves</code
+              >.
+            </li>
+            <li class="list-item">
+              Actual: <code id="answer-six" class="inline-code"></code>.
+            </li>
+          </ul>
+        </ol>
 
-                <li class="list-item">Output the <code class="inline-code">todo</code> array.</li>
-                <ul class="list">
-                    <li class="list-item">Expected: <code class="inline-code">Mow the yard,Clean the gutters,Wash the dishes,Do some coding, Rake the leaves</code>.</li>
-                    <li class="list-item">Actual: <code id="answer-six" class="inline-code"></code>.</li>
-                </ul>
-            </ol>
-
-            <button id="submission-btn">Submit</button>
-
-        </section>
-
-        
+        <button id="submission-btn">Submit</button>
+      </section>
     </main>
 
     <footer></footer>
 
     <script src="./js/assignment.js"></script>
-</body>
+  </body>
 </html>
